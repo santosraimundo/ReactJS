@@ -1,0 +1,17 @@
+
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html, body{
+    width: 100vw;
+    height: 100vh;
+    background-color: darksalmon;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header>h1{
+    text-align: center;
+    padding: 10px;
+    font-size: 3em;
+}
