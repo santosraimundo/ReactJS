@@ -6,6 +6,7 @@ function App(){
         <header>
             <h1>Vamos colocar componentes dentro de componentes</h1>
             <Texto />
+            <Texto></Texto>
         </header>
         
         
