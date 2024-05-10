@@ -1,6 +1,6 @@
 .comment{
     width: 500px;
-    border: solid 2px black;
+    border: solid 3px black;
     background-color: white;
     margin: 5px;
     padding: 10px;
@@ -12,7 +12,9 @@
 }
 .title2{
     padding-bottom: 5px;
+    color: #686363;
 }
 .author{
     text-align: right;
+    color: #676262;
 }
