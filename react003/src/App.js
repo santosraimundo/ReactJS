@@ -7,6 +7,7 @@ function App(){
             <h1>Comentários</h1>
             <Comment />
             <Comment />
+            <Comment></Comment>
         </>
     )
 }
