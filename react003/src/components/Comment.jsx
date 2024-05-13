@@ -1,12 +1,12 @@
 import React  from "react";
 import "./Comment.css";
-function Comment(){
+function Comment(props){
     return(
         <>
             <section className="comment">
-                <h1 className="title">Título</h1>
-                <h3 className="title2">Título2</h3>
-                <h6 className="author">Autor: Santos Mateus Raimundo</h6>
+                <h1 className="title">{props.title}</h1>
+                <h3 className="title2">{props.head}</h3>
+                <h6 className="author">{props.author}</h6>
             </section>
         </>
     )
