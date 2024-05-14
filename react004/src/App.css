@@ -6,9 +6,16 @@
 }
 html,body{
     display: flex;
+    flex-flow: column;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: black;
     color: white;
     width: 100vw;
     height: 100vh;
+}
+.component{
+    padding: 10px;
+    margin: 10px;
+    background-color: darkgray;
+    border-radius: 5px;
 }

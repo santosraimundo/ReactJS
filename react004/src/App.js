@@ -1,8 +1,10 @@
 import React from "react";
+import ComponentOne from "./components/ComponentOne";
 function App(){
     return(
         <>
-            <p>Vamos começar a organizar o nosso código com reactjs</p>
+            <ComponentOne title="Titulo1: Componente Um"/>
+            <ComponentOne title="Titulo2: Componente dois"/>
         </>
     )
 }
