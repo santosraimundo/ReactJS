@@ -5,4 +5,4 @@ import App from "./App";
 //parte da criação da renderização da nossa aplicação.
 const container = document.querySelector("#root");
 const root = ReactDOM.createRoot(container);
-root.render('Be wellcome to my site');
+root.render(<App />);
