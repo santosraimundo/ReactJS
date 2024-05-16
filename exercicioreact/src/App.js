@@ -1,9 +1,10 @@
 import React from "react";
+import QualityReact from "./components/QualityReact.jsx"
 
 function App(){
     return(
         <>
-            <h1>Come and see how powerful ReactJs is!</h1>
+            <QualityReact />
         </>
     )
 }
