@@ -1,14 +1,14 @@
 import React from "react";
 
-function QualityReact(){
+function QualityReact(props){
     return(
         <div>
         <header class="head">
-            <h1>Programing with ReactJS is a Life</h1>
+            <h1>{props.title}</h1>
         </header>
         <main class="container">
             <aside>
-                <p>Now we leaning React to developer our site and to grow up with my knowlodge. </p>
+                <p>{props.paragraphy}</p>
             </aside>
         </main>
         </div>
