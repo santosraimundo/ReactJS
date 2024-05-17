@@ -1,10 +1,15 @@
 import React from "react";
 import ComponentOne from "./components/ComponentOne";
+import ComponentTwo from "./components/ComponentTwo";
+import ComponentThree from "./components/ComponentThree";
 function App(){
     return(
         <>
-            <ComponentOne title="Titulo1: Componente Um"/>
-            <ComponentOne title="Titulo2: Componente dois"/>
+            <ComponentOne/>
+            <ComponentTwo />
+            <ComponentThree />
+
+            
         </>
     )
 }
