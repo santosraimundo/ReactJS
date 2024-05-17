@@ -15,7 +15,16 @@ html,body{
 }
 .component{
     padding: 10px;
-    margin: 10px;
+    margin: 20px;
     background-color: darkgray;
     border-radius: 5px;
+}
+h1{
+    color: black;
+}
+h2{
+    color: blue;
+}
+h3{
+    color: green;
 }

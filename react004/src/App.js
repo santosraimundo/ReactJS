@@ -7,7 +7,7 @@ function App(){
         <>
             <ComponentOne/>
             <ComponentTwo />
-            <ComponentThree />
+            <ComponentThree title="Component Three" />
 
             
         </>
