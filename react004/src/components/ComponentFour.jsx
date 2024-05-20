@@ -1,10 +1,13 @@
 import React from "react";
-function ComponentOne(props){
+
+const ComponentFour = (props)=>{
     return(
         <div className="component">
-            <h1>Titulo1: {props.title}</h1>
+            <h4>Título4: {props.title}</h4>
             <p>Subtitulo: {props.subtitle}</p>
+            {props.children}
+
         </div>
     )
 }
-export default ComponentOne;
+export default ComponentFour;
