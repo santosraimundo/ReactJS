@@ -1,6 +1,7 @@
 import ReactDOM from "react-dom/client";
-import "./App.css"
+import "./App.css";
+import App from "./App"
 //Create our render
 
 const root = document.querySelector("#root");
-ReactDOM.createRoot(root).render('Estamos de volta');
+ReactDOM.createRoot(root).render(<App />);

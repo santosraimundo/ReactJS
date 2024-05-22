@@ -5,5 +5,13 @@ html, body{
     height: 100vh;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #013434;
-    color: white;
+    color: black;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+
+}
+.componentall{
+    background-color: white;
+    width: 700px;
 }
