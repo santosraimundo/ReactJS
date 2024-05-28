@@ -21,15 +21,23 @@ html,body{
 }
 h1{
     color: black;
+    
 }
 h2{
     color: blue;
+    font-size: 1.8em;
 }
 h3{
     color: green;
+    font-size: 1.8em;
 }
 h4{
     color: yellow;
+    font-size: 1.8em;
+}
+h5{
+    color:red;
+    font-size: 1.8em;
 }
 .list{
     margin-left: 20px;
