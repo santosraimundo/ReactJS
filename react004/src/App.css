@@ -54,6 +54,14 @@ h5{
     border-radius: 4px  10px;
     text-align: center;
 }
+ul{
+    list-style-type: none;
+    color: black;
+    padding-top: 10px;
+}
+p{
+    padding-top:10px;
+}
 .list{
     margin-left: 20px;
     color: black;
