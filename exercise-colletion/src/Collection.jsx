@@ -3,7 +3,11 @@ import dadosPessoal from "./colletion";
 
 const pessoas = ()=>{
     return dadosPessoal.map(person =>{
-       
+      return  <li key ={person.id_dados_pessoal}> Nome:{person.name} | Idade: {person.age} | Altura: {person.height}m | Peso: {person.weight}Kg </li>
+       /*return (
+       <li key ={person.id_dados_pessoal}> Nome:{person.name} | Idade: {person.age} | Altura: {person.height}m | Peso: {person.weight}Kg </li>
+    )
+    */
     })
 }
 const Collection = (props)=>{
