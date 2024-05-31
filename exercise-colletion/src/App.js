@@ -1,10 +1,10 @@
 import React from "react";
-
+import Collection from "./Collection";
 
 const App = ()=>{
     return(
         <>
-            <h1>Come and see</h1>
+            <Collection title = "Apresentação de uma Coleção com o Compenete React"/>
         </>
     )
 }
