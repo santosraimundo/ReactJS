@@ -13,10 +13,15 @@ html, body{
 .container{
     display: flex;
     flex-direction: column;
-    
+    align-items: center;
 
 }
 .collection{
     background-color: white;
     width: 700px;
+    
+}
+ul{
+    list-style-type: none;
+
 }
