@@ -7,6 +7,7 @@ function CollectionApp(props){
                 <h1>Título1: {props.title}</h1>
                 <ul></ul>
             </section>
+            
         </div>
     )
 }
