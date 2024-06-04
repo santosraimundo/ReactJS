@@ -16,12 +16,21 @@ html, body{
     align-items: center;
 
 }
+h1{
+    text-align: center;
+    padding-top: 10px;
+}
 .collection{
     background-color: white;
     width: 700px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 2px 2px #00000096;
     
 }
 ul{
     list-style-type: none;
+    padding: 10px;
+    font-weight: bold;
 
 }
