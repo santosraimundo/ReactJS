@@ -1,9 +1,10 @@
 import React from "react";
+import CollectionApp from "./CollectionApp";
 
 const App = ()=>{
     return(
         <>
-        <h1>We are back again</h1>
+            <CollectionApp title ="Let´s start with Collection" />
         </>
     )
 }
