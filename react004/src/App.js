@@ -22,7 +22,7 @@ function App(){
 
             </ComponentFour>
             <ComponentFive title="Component Five" subtitle="Aplicando coleção no componente"/>
-            <ComponentSix title = "Component Six" subtitle="Component Six with conditional"/>
+            <ComponentSix title = "Component Six" subtitle="Component Six with conditional" valor = {0}/>
             
 
             
