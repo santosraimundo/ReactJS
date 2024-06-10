@@ -4,6 +4,7 @@ import ComponentTwo from "./components/ComponentTwo";
 import ComponentThree from "./components/ComponentThree";
 import ComponentFour from "./components/ComponentFour";
 import ComponentFive from "./components/ComponentFive";
+import ComponentSix from "./components/ComponentSix";
 
 function App(){
     return(
@@ -21,6 +22,8 @@ function App(){
 
             </ComponentFour>
             <ComponentFive title="Component Five" subtitle="Aplicando coleção no componente"/>
+            <ComponentSix title = "Component Six"/>
+            
 
             
         </>
