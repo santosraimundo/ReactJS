@@ -11,7 +11,7 @@ function ComponentSeven(props){
     return(
         <div className="component">
             <h2>Título: {props.title}</h2>
-            <p>Subtítulo: {props.suntitle}</p>
+            <p>Subtítulo: {props.subtitle}</p>
             {comparar()}
         </div>
     )
