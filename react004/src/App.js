@@ -6,6 +6,7 @@ import ComponentFour from "./components/ComponentFour";
 import ComponentFive from "./components/ComponentFive";
 import ComponentSix from "./components/ComponentSix";
 import ComponentSeven from "./components/ComponentSeven";
+import ComponentEight from "./components/ComponentEight";
 
 function App(){
     return(
@@ -25,6 +26,8 @@ function App(){
             <ComponentFive title="Component Five" subtitle="Aplicando coleção no componente"/>
             <ComponentSix title = "Component Six" subtitle="Component Six with conditional" valor = {true}/>
             <ComponentSeven title="Component Seven" subtitle="Component Seven with new method of condicional" valor ={10} diasSemana={10}/>
+            <ComponentEight> title="Component Eight" subtitle="Component Eight with third method of condicional"</ComponentEight>
+
             
 
             
