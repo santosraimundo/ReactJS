@@ -25,8 +25,8 @@ function App(){
             </ComponentFour>
             <ComponentFive title="Component Five" subtitle="Aplicando coleção no componente"/>
             <ComponentSix title = "Component Six" subtitle="Component Six with conditional" valor = {true}/>
-            <ComponentSeven title="Component Seven" subtitle="Component Seven with new method of condicional" valor ={10} diasSemana={10}/>
-            <ComponentEight title= "Component Eight" subtitle="Component Eight with third method of condicional."></ComponentEight>
+            <ComponentSeven title="Component Seven" subtitle="Component Seven with new method of condicional" valor ={10} diasSemana={1}/>
+            <ComponentEight title= "Component Eight" subtitle="Component Eight with third method of condicional." valor= "Isaac"></ComponentEight>
 
             
 
