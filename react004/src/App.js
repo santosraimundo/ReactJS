@@ -7,7 +7,7 @@ import ComponentFive from "./components/ComponentFive";
 import ComponentSix from "./components/ComponentSix";
 import ComponentSeven from "./components/ComponentSeven";
 import ComponentEight from "./components/ComponentEight";
-import ComponentTen from "./components/ComponentTen";
+import ComponentNine from "./components/ComponetNine";
 
 function App(){
     return(
@@ -28,6 +28,7 @@ function App(){
             <ComponentSix title = "Component Six" subtitle="Component Six with conditional" valor = {true}/>
             <ComponentSeven title="Component Seven" subtitle="Component Seven with new method of condicional" valor ={10} diasSemana={1}/>
             <ComponentEight title= "Component Eight" subtitle="Component Eight with third method of condicional." valor= "Isaac"></ComponentEight>
+            <ComponentNine title="Component Nine" subtitle="Component Nine are leaning us how we can make the inline style to JSX"></ComponentNine>
 
             
 
