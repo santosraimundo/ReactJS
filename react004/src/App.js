@@ -7,6 +7,7 @@ import ComponentFive from "./components/ComponentFive";
 import ComponentSix from "./components/ComponentSix";
 import ComponentSeven from "./components/ComponentSeven";
 import ComponentEight from "./components/ComponentEight";
+import ComponentTen from "./components/ComponentTen";
 
 function App(){
     return(
