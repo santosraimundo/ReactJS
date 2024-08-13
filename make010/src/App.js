@@ -3,7 +3,7 @@ import React from "react";
 function App(){
     return(
         <div>
-            <h1>Chegou o mundo do Ismael Cristovão.</h1>
+            <h1>WELCOME TO REACTJS.</h1>
         </div>
     )
 }
