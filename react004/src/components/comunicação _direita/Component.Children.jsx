@@ -7,6 +7,12 @@ function ComponentChildren(props){
             <p>Filho: Component Father</p>
             <p>Função:{props.funcao}</p>
             <p style={{color:"white", backgroundColor:"blue", padding:"10px"}}>Nome do Técnico: {props.children}</p>
+            <ul className="list">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>REACTJS</li>
+                <li>BOOTSTRAP</li>
+            </ul>
         </div>
     )
 }

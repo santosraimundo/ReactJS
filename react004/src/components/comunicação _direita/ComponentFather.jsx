@@ -9,6 +9,7 @@ const ComponentFather = (props) =>{
             <ComponentChildren title=" Component Filho " funcao=" Técnico de Hardware" >Santos Raimundo</ComponentChildren>
             <ComponentChildren title=" Component Filho " funcao=" Especilista de Hardware" >José Renato</ComponentChildren>
             <ComponentChildren title=" Component Filho " funcao=" Técnico de Hardware Sênior" >Ismael Cristovão</ComponentChildren>
+            
         </div>
     )
 }
