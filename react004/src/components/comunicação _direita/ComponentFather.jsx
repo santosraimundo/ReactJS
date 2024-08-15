@@ -4,9 +4,9 @@ import ComponentChildren from "./Component.Children";
 const ComponentFather = (props) =>{
     return(
         <div className="component">
-            <p className="title">{props.title}</p>
+            <h1 className="title">{props.title}</h1>
             <p>Pai</p>
-            <ComponentChildren ></ComponentChildren>
+            <ComponentChildren title=" Component Filho " Funcao="Técnico de Hardware" >Nome: Santos Raimundo</ComponentChildren>
         </div>
     )
 }
