@@ -28,7 +28,7 @@ function App(){
             <ComponentFive title="Component Five" subtitle="Aplicando coleção no componente"/>
             <ComponentSix title = "Component Six" subtitle="Component Six with conditional" valor = {true}/>
             <ComponentSeven title="Component Seven" subtitle="Component Seven with new method of condicional" valor ={10} diasSemana={1}/>
-            <ComponentEight title= "Component Eight" subtitle="Component Eight with third method of condicional." valor= "Manssanga"></ComponentEight>
+            <ComponentEight title= "Component Eight" subtitle="Component Eight with third method of condicional." valor= "Ana"></ComponentEight>
             <ComponentNine title="Component Nine" subtitle="Component Nine are leaning us how we can make the inline style to JSX"></ComponentNine>
             <ComponentFather title="Comunicação Direita"></ComponentFather>
 
