@@ -6,7 +6,7 @@ const ComponentFather = (props) =>{
         <div className="component">
             <h1 className="title">{props.title}</h1>
             <p>Pai</p>
-            <ComponentChildren title=" Component Filho " Funcao="Técnico de Hardware" >Nome: Santos Raimundo</ComponentChildren>
+            <ComponentChildren title=" Component Filho " funcao=" Técnico de Hardware" >Santos Raimundo</ComponentChildren>
         </div>
     )
 }
