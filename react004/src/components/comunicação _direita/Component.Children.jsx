@@ -6,7 +6,7 @@ function ComponentChildren(props){
             <h2 className="title">Titulo:{props.title}</h2>
             <p>Filho:</p>
             <p>Função:{props.funcao}</p>
-            <p>Nome do Técnico:{props.children}</p>
+            <p style={{color:"white", backgroundColor:"blue"}}>Nome do Técnico:{props.children}</p>
         </div>
     )
 }
