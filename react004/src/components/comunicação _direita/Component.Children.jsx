@@ -4,9 +4,9 @@ function ComponentChildren(props){
     return(
         <div className="component">
             <h2 className="title">Titulo:{props.title}</h2>
-            <p>Filho:</p>
+            <p>Filho: Component Father</p>
             <p>Função:{props.funcao}</p>
-            <p style={{color:"white", backgroundColor:"blue", padding:"10px"}}>Nome do Técnico:{props.children}</p>
+            <p style={{color:"white", backgroundColor:"blue", padding:"10px"}}>Nome do Técnico: {props.children}</p>
         </div>
     )
 }
