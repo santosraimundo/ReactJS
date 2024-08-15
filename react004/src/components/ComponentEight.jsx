@@ -12,11 +12,11 @@ export default function(props){
             <CondicaoIf condicao = {props.valor === 'Santos'}>
                 <p>É o nome Verdadeiro.</p>
             </CondicaoIf>
-            <CondicaoIf condicao = {props.valor !== 'Santos' && props.volor === 'Ana'}>
+            <CondicaoIf condicao = {props.valor !== 'Santos' && props.volor !== 'Ana'}>
                 <p>O nome é Desconhecido.</p>
             </CondicaoIf>
-            <CondicaoIf condicao = {props.valor === 'Isaac' || props.volor !== 'Santos' || props.valor !== "Ana"}>
-                <p>O {props.valor}  é meu irmão.</p>
+            <CondicaoIf condicao = {props.valor === 'Isaac' && props.volor === 'Santos' || props.valor === "Ana"}>
+                <p>O {props.valor}  é meu irmão(ã).</p>
             </CondicaoIf>
         </div>
     )
