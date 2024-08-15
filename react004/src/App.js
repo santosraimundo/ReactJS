@@ -8,6 +8,7 @@ import ComponentSix from "./components/ComponentSix";
 import ComponentSeven from "./components/ComponentSeven";
 import ComponentEight from "./components/ComponentEight";
 import ComponentNine from "./components/ComponetNine";
+import ComponentFather from "./components/comunicação _direita/ComponentFather";
 
 function App(){
     return(
@@ -29,6 +30,7 @@ function App(){
             <ComponentSeven title="Component Seven" subtitle="Component Seven with new method of condicional" valor ={10} diasSemana={1}/>
             <ComponentEight title= "Component Eight" subtitle="Component Eight with third method of condicional." valor= "Isaac"></ComponentEight>
             <ComponentNine title="Component Nine" subtitle="Component Nine are leaning us how we can make the inline style to JSX"></ComponentNine>
+            <ComponentFather title="Comunicação Direita"></ComponentFather>
 
             
 
