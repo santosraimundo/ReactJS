@@ -5,7 +5,7 @@ const ComponentChildren = (props)=>{
         <div className="children">
             <h2 className="title">Título: {props.title}</h2>
             <p>Filho</p>
-            <ComponentChildren></ComponentChildren>
+            
         </div>
     )
 }
