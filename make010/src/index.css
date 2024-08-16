@@ -27,6 +27,10 @@ h2{
 }
 .father{
     margin: 8px;
+    background-color: darkgrey;
+    padding: 50px;
+    border-radius: 5px 8px;
+    box-shadow: 2px 4px 5px 4px #00000075;
 
 }
 .children{
