@@ -1,10 +1,7 @@
 import React from "react";
+import ComponentFather from "./ComponentFather";
 
 function App(){
-    return(
-        <div>
-            <h1>WELCOME TO REACTJS.</h1>
-        </div>
-    )
+    <ComponentFather title= "Component Father"></ComponentFather>
 }
 export default App;
