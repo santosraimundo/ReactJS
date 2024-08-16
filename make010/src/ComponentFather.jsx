@@ -5,7 +5,7 @@ function ComponentFather(props){
 
     return(
         <div className="father">
-            <h1 className="title">Título: {}</h1>
+            <h1 className="title">Título: {props.title}</h1>
             <p>Pai:</p>
         </div>
     )
