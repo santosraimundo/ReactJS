@@ -4,7 +4,7 @@ import ComponentFather from "./ComponentFather";
 function App(){
    return(
     <>
-    <ComponentFather title= "Component Father"></ComponentFather>
+    <ComponentFather title= "Dados dos técnicos"></ComponentFather>
     </>
    )
 }
