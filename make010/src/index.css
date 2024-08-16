@@ -40,3 +40,8 @@ h2{
     border-radius: 8px;
 
 }
+p{
+    padding: 4px;
+    color: white;
+    font-weight: normal;
+}
