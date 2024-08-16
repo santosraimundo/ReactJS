@@ -8,6 +8,8 @@ function ComponentFather(props){
             <h1 className="title">Título: {props.title}</h1>
             <p>Pai:</p>
             <ComponentChildren title="Component Children"></ComponentChildren>
+            <ComponentChildren title="Component Children"></ComponentChildren>
+            <ComponentChildren title="Component Children"></ComponentChildren>
         </div>
     )
 
