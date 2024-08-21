@@ -7,3 +7,4 @@ function ComponentChildren (props){
         return false;
     }
 }
+export default ComponentChildren;
