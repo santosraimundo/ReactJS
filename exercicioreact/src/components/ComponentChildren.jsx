@@ -1,10 +1,12 @@
 import React from "react";
+import Condicao from "./ComponentCondicao";
 
-function ComponentChildren (props){
-    if(props.ComponentChildren){
-        return props.children;
-    }else{
-        return false;
-    }
+const ComponentChildren = (props)=>{
+    return(
+        <div className="children" style = {{backgroundColor: "green"}}>
+            <h1 className="title">Título: {props.title}</h1>
+            <Condicao></Condicao>
+        </div>
+    )
 }
 export default ComponentChildren;
