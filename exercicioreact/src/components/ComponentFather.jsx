@@ -10,7 +10,10 @@ const ComponentFather = (props)=>{
             <ComponentChildren title="Componente Filho">
 
             </ComponentChildren>
-            <Condicao></Condicao>
+            <p> Nome: {props.nome}</p>
+            <Condicao condicao = {props.nome === "Santos"}>
+                <p>É o seu nome</p>
+            </Condicao>
 
         </div>
 
