@@ -1,9 +1,10 @@
 import React from "react";
+import ComponentFather from "./ComponentFather";
 
 function App(){
     return(
         <>
-        <h1>Here iam again</h1>
+            <ComponentFather title="Component Pai"></ComponentFather>
         </>
     )
 }

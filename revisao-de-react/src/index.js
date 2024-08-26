@@ -3,4 +3,4 @@ import App from "./App";
 
 const root = document.querySelector("#root");
 
-ReactDom.createRoot=(root).render(<App></App>)   
+ReactDom.createRoot(root).render(<App></App>);   
