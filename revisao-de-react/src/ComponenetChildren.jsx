@@ -1,5 +1,12 @@
 import React from "react";
 
+    const Condicao=(props)=>{
+        if(props.condicao){
+            return props.children
+        }else{
+            return false
+        }
+    }
     const estilo={
         backgroundColor:"white",
         height: "300px",
@@ -11,6 +18,7 @@ const ComponentChildren = (props)=>{
     return(
         <div style={estilo}>
             <h2>Título: {props.title}</h2>
+            <p> Subtítulo: {Condicao()}</p>
         </div>
     )
 
