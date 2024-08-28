@@ -3,7 +3,7 @@ import ComponentDaughter from "./ComponentDaughter";
 
 function ComponentMother(props){
     function Clicou(){
-        window.alert("O botaão foi acionado pelo Componente Filha")
+        window.alert("O botão foi acionado pelo Componente Filha")
     }
     return(
         <div>
