@@ -8,7 +8,7 @@ function ComponentMother(props){
     return(
         <div>
             <h1 className="title"> Título: {props.title}</h1>
-            <ComponentDaughter title="A comunicação indireta é quando é usado a propridade do filho para o pai"></ComponentDaughter>
+            <ComponentDaughter title="A comunicação indireta é quando é usado a propridade do filho para o pai" clicar={Clicou}></ComponentDaughter>
         </div>
     )
 }
