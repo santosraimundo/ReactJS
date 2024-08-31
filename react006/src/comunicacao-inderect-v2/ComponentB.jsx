@@ -1,9 +1,10 @@
 import React  from "react";
 
-function ComponentB(prpos){
+function ComponentB(props){
     return(
-        <sectino>
-            <p>Título: {prpos.title}</p>
-        </sectino>
+        <section>
+            <p>Título: {props.title}</p>
+        </section>
     )
 }
+export default ComponentB;
