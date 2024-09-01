@@ -12,7 +12,7 @@ const ComponentA = (props)=>{
     return(
         <div style={estilo}>
             <p>Título: {props.title}</p>
-            <ComponentB title="O componente filho vai usar as propriedades do componente pai"></ComponentB>
+            <ComponentB title="O componente filho vai usar as propriedades do componente pai" funcao{}></ComponentB>
         </div>
     )
 }
