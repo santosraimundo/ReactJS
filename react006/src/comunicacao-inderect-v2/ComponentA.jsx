@@ -3,7 +3,8 @@ import ComponentB from "./ComponentB";
 
 const ComponentA = (props)=>{
     function Executar(number, name){
-        console.log(number);
+        window.alert(number);
+        console.log(name);
     }
     const estilo = {
         backgroundColor:"green",
