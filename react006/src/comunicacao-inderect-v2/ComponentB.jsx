@@ -10,7 +10,7 @@ function ComponentB(props){
         )
     }
     return(
-        <section  style={{backgroundColor:"white", color:"black", width:"400px", height:"200px", margin:"30px", padding:"10px", fontWeight:"bold", fontSize:"1.5em"}}>
+        <section  style={{backgroundColor:"white", color:"black", height:"200px", margin:"30px", padding:"10px", fontWeight:"bold", fontSize:"1.5em", borderRadius:"5px"}}>
             <p>Título: {props.title}</p>
             <button onClick={apresentar}>Executar</button>
         </section>

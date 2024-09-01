@@ -8,8 +8,12 @@ const ComponentA = (props)=>{
     }
     const estilo = {
         backgroundColor:"green",
-        height:"300px",
-        color:"white"
+        height:"400px",
+        color:"white",
+        textAlign:"center",
+        fontSize:"1.5em",
+        paddingTop:"5px"
+        
     }
     return(
         <div style={estilo}>
