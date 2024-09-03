@@ -6,7 +6,9 @@ import React from "react";
         backgroundColor:"white",
         height: "300px",
         margin: "10px",
-        padding: "5px"
+        padding: "5px",
+        borderRadius:"5px",
+        boxShadow:"1px 2px 3px black"
     }
 
 const ComponentChildren = (props)=>{

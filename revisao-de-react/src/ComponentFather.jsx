@@ -5,7 +5,7 @@ function ComponentFather(props){
     const apresenta =(valor, name)=>{
             
             window.alert(valor);
-             window.prompt(name);
+            window.prompt(name);
             
 
         
