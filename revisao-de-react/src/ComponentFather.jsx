@@ -5,7 +5,7 @@ function ComponentFather(props){
     const apresenta =(valor, name)=>{
             
             window.alert(valor);
-            window.prompt(name);
+             window.prompt(name);
             
 
         
@@ -14,7 +14,7 @@ function ComponentFather(props){
         <div style={{backgroundColor:"gray", height: "1060px"}}>
             <h1>Título: {props.title}</h1>
             <p>Este é o campo do componente Pai</p>
-            <ComponentChildren title="Componente Filho" mostrar={apresenta}></ComponentChildren>
+            <ComponentChildren title="Componente Filho" mostrar={apresenta} ></ComponentChildren>
             <ComponentChildren title="Componente Filho"></ComponentChildren>
             <ComponentChildren title="Componente Filho"></ComponentChildren>
         </div>
