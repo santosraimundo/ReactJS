@@ -1,9 +1,11 @@
 import React from "react";
+import ComponentPaiA from "./ComponentPaiA";
 
 export default (props)=>{
     return(
         <div>
-            <p>Pai</p>
+            <h1>Avó</h1>
+            <ComponentPaiA/>
         </div>
     )
 }
