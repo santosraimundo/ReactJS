@@ -5,7 +5,7 @@ export default (props)=>{
     return(
         <div>
             <h2>Pai</h2>
-            <ComponentFilhoA/>
+            <ComponentFilhoA {...props}/>
         </div>
     )
 }

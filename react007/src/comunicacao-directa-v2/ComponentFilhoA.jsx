@@ -1,9 +1,9 @@
 import React from "react";
 
-function ComponentFilhoA(){
+function ComponentFilhoA(props){
     return(
         <di>
-            <h3>Filho</h3>
+            <h3>Filho: {props.firstName} {props.lastName}</h3>
         </di>
     )
 }

@@ -5,7 +5,7 @@ export default (props)=>{
     return(
         <div>
             <h1>Avó</h1>
-            <ComponentPaiA/>
+            <ComponentPaiA firstName="Santos" lastName="Raimundo"/>
         </div>
     )
 }
