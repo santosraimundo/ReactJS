@@ -4,7 +4,7 @@ import React from "react";
 export default (props)=>{
     function demostra(){
         return(
-            props.mostra("Nome: Santos" + "Apelido: Raimundo")
+            props.mostra("Nome: Santos"  +  " Apelido: Raimundo")
         )
     }
     return(
