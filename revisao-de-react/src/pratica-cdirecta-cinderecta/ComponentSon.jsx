@@ -10,7 +10,7 @@ export default (props)=>{
     return(
         <div>
             <h1>Son</h1>
-            <p>{props.nome}</p>
+            <p>Nome: {props.nome}</p>
             <button onClick={demostra}>Mostra</button>
         </div>
     )
