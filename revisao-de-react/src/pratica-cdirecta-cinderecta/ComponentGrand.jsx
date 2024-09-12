@@ -12,7 +12,7 @@ function ComponentGrand(props){
     return(
         <div>
             <h1>Grand Father</h1>
-            <ComponentMother valor ={"React"} mostra={Vcompleta} condicional={props.cond ==="Raimundo"}></ComponentMother>
+            <ComponentMother valor ={"React"} mostra={Vcompleta} nome = "Santos"></ComponentMother>
         </div>
     )
 }
