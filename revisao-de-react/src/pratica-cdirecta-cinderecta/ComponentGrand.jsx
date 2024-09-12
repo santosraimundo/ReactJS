@@ -1,5 +1,6 @@
 import React from "react";
 import ComponentMother from "./ComponentMother";
+import cond from "./condicional";
 
 
 function ComponentGrand(props){
@@ -11,7 +12,7 @@ function ComponentGrand(props){
     return(
         <div>
             <h1>Grand Father</h1>
-            <ComponentMother valor ={"React"} mostra={Vcompleta}></ComponentMother>
+            <ComponentMother valor ={"React"} mostra={Vcompleta} condicional={props.cond ==="Raimundo"}></ComponentMother>
         </div>
     )
 }
