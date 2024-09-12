@@ -7,8 +7,10 @@ export default (props)=>{
         <div>
             <h2>Mother</h2>
             
-            <ComponentSon {...props} condicional={props.nome==="Santos"}/>
-            <ComponentSon condicional={props.nome !== "santos"}/>
+            <ComponentSon {...props} condicional={props.nome==="Raimundo"}/>
+            <ComponentSon condicional={props.nome !== "Santos" && props.nome === "Mateus"}>
+                <p>O nome é desconhecido {props.nome}</p>
+            </ComponentSon>
         </div>
     )
 }
