@@ -1,3 +1,4 @@
 import {createRoot} from "react-dom/client";
+import App from "./App";
 
-createRoot(document.querySelector("root")).render("Hooks!!!")
+createRoot(document.querySelector("#root")).render(<App/>);
