@@ -1,5 +1,5 @@
 import React from "react";
-import FormaCorrecta from "../../react008/FormaCorrecta";
+import FormaCorrecta from "./FormaCorrecta";
 
 export default function App(){
     return(
