@@ -13,7 +13,7 @@ function RightWayHooks(props){
     return(
         <section>
             <h1>Welcome to my ReactJS-Hooks</h1>
-            <p>My name is {members.nome} iam {members.idade} and my proffision is {members.profissao}.</p>
+            <p style={{color: "blue", fontSize:"1.4em"}}>My name is {members.nome} iam {members.idade} and my proffision is {members.profissao}.</p>
         </section>
     )
 }
