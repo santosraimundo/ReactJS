@@ -3,7 +3,9 @@ import React, {useState} from "react";
 export default function AplicaConhecimento(){
     const [pessoa, setNome] = useState({nome: "Santos", apelido: "Raimundo", profissao:"Programador Web", idade: 32});
 
-
+    function change(){
+        setNome(pessoa="Baruk")
+    }
         
 
     return(
@@ -15,6 +17,7 @@ export default function AplicaConhecimento(){
             <ul><li>{pessoa.apelido}</li></ul>
             <ul><li>{pessoa.profissao}</li></ul>
             <ul><li>{pessoa.idade}</li></ul>
+            <ul><li>{}</li></ul>
 
         </section>
     )
