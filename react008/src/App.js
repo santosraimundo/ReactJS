@@ -4,13 +4,13 @@ import AplicaConhecimento from "./AplicaConhecimento";
 
    
 function App(){
-    const [valor, setValor] = useState(0);
+    const [valor, setValor] = useState(200);
     //var valor = 0
     function incrementar(){
-        setValor(valor +1)
+        setValor(valor +20)
     }
     function decremento(){
-        setValor(valor -1);
+        setValor(valor -10);
     }
 
     return(
