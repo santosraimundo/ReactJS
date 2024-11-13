@@ -9,8 +9,8 @@ function App() {
     return(
         <>
             <h1>Welcome to my React Hooks 2024</h1>
-            <form action="actio.php">
-                 <p> Contar = {valor}</p>
+            <form action="#">
+                 <p>Contar = {valor}</p>
                  <button onClick={incremento}>Incrementar</button>
             </form>
         </>
