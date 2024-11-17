@@ -13,9 +13,11 @@ function App (){
         
     }
     function changeColor(){
-        setColor(seeA =>{
+        setColor(seeA =>     
+            {
             return{...seeA, color: "Blue"}
         });
+       
     }
     return(
         <>
