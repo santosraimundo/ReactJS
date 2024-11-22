@@ -2,7 +2,9 @@ import React, {useState} from "react";
 
 function App (){
     const [valor, setValor]= useState(0)
-    const [color, setColor]= useState("yellow");
+    const [color, setColor]= useState(()=>{
+        return "Yellow";
+    });
     function acrescentar(){
         setValor(v_old => v_old +50)
         
@@ -15,7 +17,7 @@ function App (){
     function changeColor(){
         setColor(seeA =>     
             {
-            return{...seeA, color: "Blue"}
+            return "Blue";
         });
        
     }
