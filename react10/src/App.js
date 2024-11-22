@@ -5,7 +5,7 @@ function App(){
         return "Santos";
     })
     const[dadosPessoas, setDadosPessoas]=useState({
-        Name: "Santos Raimundo", 
+        personalName: "Santos Raimundo", 
         idade: 32,
         Profissao: "DEV WEB",
         Peso: 73,
@@ -13,8 +13,11 @@ function App(){
     });
     function inserirDados(){
         setDadosPessoas(alterarDados=>{
-            return{...alterarDados,
-                dadosPessoas: alterarDados.Name => alterarDados
+            return{
+                personalName: "Baruk",
+                Profissao: "Técnico de Redes de Computador",
+                idade: 10
+                
 
             }
         })
@@ -32,9 +35,11 @@ function App(){
             <button onClick={alteraNome}>Alterar Nome</button>
             <hr></hr>
             <ul>
-                <li>Nome: {dadosPessoas.Name}</li>
+                <li>Nome: {dadosPessoas.personalName}</li>
+                <li>Profisão: {dadosPessoas.Profissao}</li>
+                <li>Idade: {dadosPessoas.idade} Anos</li>
             </ul>
-            <button onClick={alteraNome}>Modificar Dados</button>
+            <button onClick={inserirDados}>Modificar Dados</button>
 
         </main>
     )
