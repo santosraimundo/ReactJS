@@ -17,7 +17,7 @@ const App= ()=>{
             case "produtos":
             console.table(produtos)
             break;
-            case "venda":
+            case "vendas":
             console.table(vendas)
             
             
