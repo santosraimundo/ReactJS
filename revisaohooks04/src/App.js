@@ -13,7 +13,7 @@ const App = () =>{
     const marcaSamsung = {
         marca: "Samsung",
         linha: "S",
-        modelo: "Samsunga S24 Ultra",
+        modelo: "Samsung S24 Ultra",
         rom: "512 GB",
         ram: "12 GB",
         ano: 2024 
@@ -39,14 +39,9 @@ const App = () =>{
             </header>
             <section>
                 <hr></hr>
-                <button onClick={()=>("marcaAple")}>Apple</button>
-                <ul>
-                    <li>Marca do Telefone: {}</li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-                <button onClick={()=>("marcaSamsung")}>Samsung</button>
+                <button onClick={()=>setPhone("marcaApple")}>Apple</button>
+            
+                <button onClick={()=>setPhone("marcaSamsung")}>Samsung</button>
                
             </section>
         </main>
