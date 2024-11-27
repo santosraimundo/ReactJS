@@ -9,7 +9,7 @@ const App = () =>{
         rom: "512 GB",
         ram: "12 GB",
         ano: 2024
-    };
+    }
     const marcaSamsung = {
         marca: "Samsung",
         linha: "S",
@@ -18,9 +18,20 @@ const App = () =>{
         ram: "12 GB",
         ano: 2024 
     }
-    const [dadosPhone, setPhone]=(()=>{
-        return "Dados dos Telemoveis";
+    const [dadosPhone, setPhone]=useState(()=>{
+        return "Dados dos Telemoveis"
     })
+    useEffect (()=>{
+        switch (dadosPhone) {
+            case "marcaApple":
+                console.table(marcaApple)
+                break;
+            case "marcaSamsung":
+                 console.table(marcaSamsung)
+                break;
+        }
+        
+    }, [dadosPhone])
     return(
         <main>
             <header>
@@ -28,6 +39,15 @@ const App = () =>{
             </header>
             <section>
                 <hr></hr>
+                <button onClick={()=>("marcaAple")}>Apple</button>
+                <ul>
+                    <li>Marca do Telefone: {}</li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <button onClick={()=>("marcaSamsung")}>Samsung</button>
+               
             </section>
         </main>
     )
