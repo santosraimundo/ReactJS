@@ -3,7 +3,7 @@ import React from "react";
 function User(props){
     <>
         <div>
-        Nome: <strong>{props.usuario.firstName} </strong>
+          Nome: <strong>{props.user.firstName}</strong>
         </div>
     </>
 }
