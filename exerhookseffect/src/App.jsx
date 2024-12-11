@@ -4,9 +4,9 @@ import User from "./components/User";
 
 function App(){
 
-
+    //useEffect and useState
     const [users, setUsers]= useState([]);
-    //effect
+    
 
     useEffect(()=>{
         fetch("https://dummyjson.com/users")
@@ -21,7 +21,7 @@ function App(){
         <main>
           <h1>Welcome to React Hooks</h1>
         {users.map(user => {
-            return<User key={user.id} user ={user}/>
+            return <User key={user.id} usuario={user}></User>
         })}
         </main>
     )
