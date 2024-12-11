@@ -21,8 +21,8 @@ function App(){
         <main>
           <h1>Welcome to React Hooks</h1>
         {users.map(user => {
-            return  <User key={user.id} user ={user}/>
-        })};
+            return<User key={user.id} user ={user}/>
+        })}
         </main>
     )
 }

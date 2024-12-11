@@ -1,9 +1,9 @@
-import React from "react";
+import React from "react"
 
 function User(props){
     <>
         <div>
-          Nome: <strong>{props.user.firstName}</strong>
+          Nome: <strong>{props.user.firstName} {props.user.lastName}</strong>
         </div>
     </>
 }
