@@ -5,7 +5,7 @@ function App(){
         return "Santos";
     })
     const[dadosPessoas, setDadosPessoas]=useState({
-        personalName: "Santos Raimundo", 
+        personalName: "Benivaldo Raimundo", 
         idade: 32,
         Profissao: "DEV WEB",
         Peso: 73,
